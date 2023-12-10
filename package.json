@@ -1,0 +1,32 @@
+{
+  "name": "data-structures-and-algos",
+  "version": "1.0.0",
+  "description": "Data structures and algorithms practice.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watch",
+    "build": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deepduggal/data-structures-and-algos.git"
+  },
+  "keywords": [
+    "data",
+    "structures",
+    "algorithms",
+    "scalability"
+  ],
+  "author": "Deep Duggal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deepduggal/data-structures-and-algos/issues"
+  },
+  "homepage": "https://github.com/deepduggal/data-structures-and-algos#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.11",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.3.3"
+  }
+}
