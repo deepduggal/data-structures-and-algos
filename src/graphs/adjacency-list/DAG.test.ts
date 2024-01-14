@@ -1,15 +1,14 @@
+import { IVertex } from '../../types/graph-types';
 import DAG from './DAG';
 
 /**
  * Adjacency list made of values. Just strings, no vertex. Used for testing.
  */
-interface TestAdjacencyValues {
-  [key: string]: string[]; // Fix: Change [string] to [key: string]
-}
+type TestAdjacencyValues = {
+  [key: string]: string[];
+};
 
-interface TestEdgeListValues {
-  []
-}
+type TestEdgeListValues = [IVertex, IVertex][];
 
 /**
  * Iterate over an adjacency list (an object with a key and an array of values that only contain other keys of the object)
