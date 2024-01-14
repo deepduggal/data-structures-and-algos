@@ -2,7 +2,7 @@
  * Make test data
  */
 
-const testGraphs = {
+export const testGraphs = {
   weighted: null,
   unweighted: null,
   directed: null,
@@ -11,5 +11,3 @@ const testGraphs = {
   tree: null,
   bfs: null
 };
-
-export testGraphs;
