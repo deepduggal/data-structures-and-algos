@@ -182,9 +182,9 @@ function shortestPathSizeByWeights(graph: UndirectedEdgeList, start: IVertex, en
  * @param b 
  * @param c 
  */
-function shortestThreePathSize(graph, a: IVertex, b: IVertex, c: IVertex) {
+// function shortestThreePathSize(graph, a: IVertex, b: IVertex, c: IVertex) {
 
-}
+// }
 
 /**
  * NOTE: PROBABLY A HARD PROBLEM FOR NOW
@@ -192,12 +192,12 @@ function shortestThreePathSize(graph, a: IVertex, b: IVertex, c: IVertex) {
  * @param graph
  * @param vertices An ordered list of vertices. vertices[0] is the starting vertex, vertices[1] is an intermediate vertex, 
  */
-function shortestNPathSize(graph, vertices: Iterable<IVertex>) {
-  for (const vertex of vertices) {
-    // Perform operations on each vertex
+// function shortestNPathSize(graph, vertices: Iterable<IVertex>) {
+//   for (const vertex of vertices) {
+//     // Perform operations on each vertex
 
-  }
-}
+//   }
+// }
 
 /**
  * Get the path or collection of paths) with the shortest size.
@@ -213,9 +213,9 @@ function getPathSizeByWeight() {
 
 }
 
-function getPath(graph, a: IVertex, b: IVertex) {
+// function getPath(graph, a: IVertex, b: IVertex) {
 
-}
+// }
 
 /**
  * The number of unique paths in a graph

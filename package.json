@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "jest --watch",
-    "ts": "tsc -w --noEmit"
+    "ts": "tsc -w"
   },
   "repository": {
     "type": "git",

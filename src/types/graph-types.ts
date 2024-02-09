@@ -117,3 +117,7 @@ export type AdjacencyList = Map<IVertex, Set<IVertex>>;
 export type DirectedEdgeList = IDirectedEdge[];
 export type UndirectedEdgeList = IUndirectedEdge[];
 export type EdgeList = UndirectedEdgeList | UndirectedEdgeList;
+
+// export type RowOfAdjacencyMatrix = [];
+// export type ColumnOfAdjacencyMatrix = [];
+export type AdjacencyMatrix = IVertex[][];
